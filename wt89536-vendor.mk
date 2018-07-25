@@ -1023,7 +1023,8 @@ PRODUCT_COPY_FILES += \
     vendor/cmdc/wt89536/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/cmdc/wt89536/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/cmdc/wt89536/proprietary/vendor/qcril.db:system/vendor/qcril.db
-
+    vendor/cmdc/wt89536/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so;vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so
+    
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libsdm-disp-apis \
@@ -1042,7 +1043,7 @@ PRODUCT_PACKAGES += \
     ConnectivityExt \
     QtiTelephonyServicelibrary \
     cneapiclient \
-    com.qti.dpmframework \
+    com.qti.dpmframework 
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
     com.qualcomm.location.vzw_library \
