@@ -1025,7 +1025,10 @@ PRODUCT_COPY_FILES += \
     vendor/cmdc/wt89536/proprietary/vendor/qcril.db:system/vendor/qcril.db
     vendor/cmdc/wt89536/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so;system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/cmdc/wt89536/proprietary/vendor/lib64/libdpmqmihal.so:system/vendor/lib64/libdpmqmihal.so \
-        
+    vendor/cmdc/wt89536/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so;system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
+    vendor/cmdc/wt89536/proprietary/vendor/lib/libdpmqmihal.so:system/vendor/lib/libdpmqmihal.so \
+    vendor/cmdc/wt89536/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
+
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libsdm-disp-apis \
