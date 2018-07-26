@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),wt89536)
+ifeq ($(TARGET_DEVICE),taco)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qdcm_calib_data_otm1901a_1080p_video_DJ_otp
